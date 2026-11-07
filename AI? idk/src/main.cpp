@@ -3,24 +3,32 @@
 
 using namespace std;
 
+struct variables {
+    string Name;
+    string Question;
+    string Answer;
+};
+
 
 int main() {
 
-    string name;
-    string question;
-    string answer;
+    variables AI;
+
+    AI.Name;
+    AI.Question;
+    AI.Answer;
 
     cout << "What's Your Name?: ";
-    cin >> name;
+    cin >> AI.Name;
 
     cout << "> ";
-    cin >> question;
+    cin >> AI.Question;
 
-    if (question == "Hello") {
-        cout << "Hello There! "<< name;
+    if (AI.Question == "Hello") {
+        cout << "Hello There! "<< AI.Name;
     }
 
-    else if (question == "Test") {
+    else if (AI.Question == "Test") {
             cout << "Idk....";
     }
 
