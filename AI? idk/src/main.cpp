@@ -13,22 +13,22 @@ struct variables {
 int main() {
 
     variables AI;
-
-    AI.Name;
-    AI.Question;
+    variables Person;
 
     cout << "What's Your Name?: ";
-    cin >> AI.Name;
+    cin >> Person.Name;
 
     cout << "> ";
-    cin >> AI.Question;
+    cin >> Person.Question;
 
-    if (AI.Question == "Hello") {
-        cout << "Hello There! "<< AI.Name;
+    if (Person.Question == "Hello") {
+        AI.Answer = "Hello There! ";
+        cout << AI.Answer << Person.Name;
     }
 
-    else if (AI.Question == "Test") {
-            cout << "Idk....";
+    else if (Person.Question == "Test") {
+           AI.Answer = "Idk....";
+           cout << AI.Answer;
     }
 
 }
