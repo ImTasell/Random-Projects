@@ -16,7 +16,6 @@ int main() {
 
     AI.Name;
     AI.Question;
-    AI.Answer;
 
     cout << "What's Your Name?: ";
     cin >> AI.Name;
