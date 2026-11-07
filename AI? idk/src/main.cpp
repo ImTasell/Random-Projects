@@ -20,8 +20,8 @@ int main() {
         cout << "Hello There! "<< name;
     }
 
-    else if (question == "hello") {
-        cout << "Hello There! "<< name;
+    else if (question == "Test") {
+            cout << "Idk....";
     }
 
 }
