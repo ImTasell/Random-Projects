@@ -27,8 +27,12 @@ int main() {
     }
 
     else if (Person.Question == "Test") {
-           AI.Answer = "Idk....";
+          AI.Answer = "Idk....";
            cout << AI.Answer;
     }
 
+    else if (Person.Question == "H") {
+        AI.Answer = "I";
+        cout << AI.Answer;
+    }
 }
